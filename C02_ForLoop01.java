@@ -54,6 +54,21 @@ public class C02_ForLoop01 {
 			System.out.println("son for loop'un sonrasi");
 			
 		}
+	
+	              for (int i = 10 ; i < 20 ; i++) {
+				System.out.print(i + " ");
+				*/
+			// eger baslangic degeri kosulu saglamiyorsa loop body
+			// hic calismadan loopun sonuna gider
+			// yani loop islevsiz olur
+			
+			for (int i1 = 10; i1 < 0; i1++) {
+				System.out.println(i1 + " ");
+			}
+			
+			System.out.println("son for loop'un sonrasi");
+			
+		}
 	}
 
 
